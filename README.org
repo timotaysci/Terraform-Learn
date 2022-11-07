@@ -1,0 +1,20 @@
+* Learning Terraform
+
+
+From [[ https://www.youtube.com/watch?v=HmxkYNv1ksg][here]].
+
+
+** What
+   
+Terraform is declarative - declare what you want - terraform does the rest.
+
+For examples, say you want a VM, Azure in a VPC. With Terraform we would write code to describe the VM, Azure and VPC in file. You would then use Terraform to deploy.
+
+First we would "plan", this would compare desired outcome to what currently exists. For example, on Day 1, everything would be created.
+
+Then we ca "apply". Here Terraform works with API tokens to spin up your services.
+
+Terra form is pluggable so can work with IaaS, PaaS, SaaS
+
+Terraform is devops first which allows for best practice and avoids config drift.
+
